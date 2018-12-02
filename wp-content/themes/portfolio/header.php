@@ -16,7 +16,12 @@
 		</div>
 	  <ul class="header-right">
 			<li>Menu</li>
-			<li>Home</li>
+			<li><?php 
+            $args = [
+                'menu' => 'navigation',            
+            ];
+            wp_nav_menu($args);
+         ?></li>
 		</ul>
 
 	</header>
