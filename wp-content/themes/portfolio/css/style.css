@@ -42,7 +42,7 @@ aside{
   z-index: 10;
 }
 .introduce{
-	padding: 150px 0 0 80px;
+	padding: 60px 0 0 80px;
 }
 .introduce li:first-child{
 	font-size: 30px;
@@ -61,8 +61,8 @@ main{
   grid-template-columns: repeat(3, 25%);
   grid-gap: 25px;
   justify-content: center;
-  margin-top: 100px;
-  padding-top: 60px;
+  margin-top:50px;
+  padding-top: 30px;
 	height: 100vh;
 	width: 70vw;
 	font-size: 18px;
